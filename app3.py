@@ -2,6 +2,7 @@
 ## HTTP Verb GET And POST
 
 from flask import Flask,request,redirect,url_for,render_template
+## The request module from Flask is imported to handle the form data. Now, when you run your Flask app and submit the form, it should work without the NameError.
 
 
 app = Flask(__name__)
