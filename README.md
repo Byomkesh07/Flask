@@ -15,7 +15,7 @@ python -m venv myenv
 
 This will create a virtual environment named venv in your project directory.
 
-Step 4: Activate the Virtual Environment
+Step 4: Always Activate the Virtual Environment in your IDE
 On Windows:
 
 .\myenv\Scripts\activate
