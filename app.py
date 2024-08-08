@@ -13,4 +13,6 @@ def members():
     return "Welcome to my first web applications member page"
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=True)   
+
+## debug=True is used to restart the application automatically when We're saving the code
