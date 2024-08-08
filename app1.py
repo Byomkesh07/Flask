@@ -7,11 +7,11 @@ app1 = Flask(__name__)
 
 @app1.route('/success/<int:score>')
 def success(score):
-    return "The person has passed the exam with marks " + str(score)
+    return "The person has passed the exam and the marks is " + str(score)
 
 @app1.route('/fail/<int:score>')
 def fail(score):
-    return "The person has failed the exam with marks " + str(score)
+    return "The person has failed the exam and the marks is " + str(score)
 
 #Result checker
 @app1.route('/results/<int:marks>')
